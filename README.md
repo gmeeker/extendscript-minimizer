@@ -21,6 +21,7 @@ ExtendScript will interpret like this:
 (true || false) && false
 ```
 but JavaScript will interpret like this:
+```
 true || (false && false)
 ```
 
